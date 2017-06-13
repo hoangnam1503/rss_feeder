@@ -1,0 +1,16 @@
+{
+  "autoload": {
+    "psr-4" : {
+      "rfEntity\\": "src/rfEntity",
+      "rfEntity\\base\\": "src/rfEntity/base",
+      "rfBuilder\\": "src/rfManager/rfBuilder/",
+      "rfBuilder\\base\\": "src/rfManager/rfBuilder/base",
+      "rfFactory\\": "src/rfManager/rfFactory/",
+      "rfItemStrategy\\": "src/rfManager/rfItemStrategy",
+      "rfItemStrategy\\base\\": "src/rfManager/rfItemStrategy/base"
+    }
+  },
+  "require": {
+    "dg/rss-php": "^1.2"
+  }
+}
