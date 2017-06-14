@@ -5,7 +5,7 @@ use rfFactory\PageFactory;
 
 $target_urls = array(
     'http://tech.aainc.co.jp/feed',
-//    'http://www.economist.com/sections/business-finance/rss.xml'
+    'http://www.economist.com/sections/business-finance/rss.xml'
 );
 
 $page_type = count($target_urls) > 1 ? PageFactory::MULTIPLE_RSS_PAGE : PageFactory::SINGLE_RSS_PAGE;

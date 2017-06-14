@@ -5,7 +5,8 @@
 namespace rfItemStrategy\base;
 
 interface iItemStrategy {
-    const LINEFEED = "\n";
+    const MORE_TEXT = '…';
+    const LINEFEED  = "\n";
 
     public function processItem($str);
 }
